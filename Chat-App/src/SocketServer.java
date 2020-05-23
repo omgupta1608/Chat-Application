@@ -100,7 +100,7 @@ public class SocketServer implements Runnable{
     }
     
     public static void main(String[] args) {
-		SocketServer server = new SocketServer(8500);
+		SocketServer server = new SocketServer(4444);
 		
 		new Thread(server).start();
 		
